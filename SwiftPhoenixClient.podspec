@@ -47,5 +47,4 @@ http://www.phoenixframework.org/docs/channels
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Starscream', :git => 'https://github.com/joltup/SwiftPhoenixClient'
-
 end
