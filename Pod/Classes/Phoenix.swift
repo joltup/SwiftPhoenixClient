@@ -321,7 +321,7 @@ public struct Phoenix {
     func payloadToJson(payload: Phoenix.Payload) -> String {
       let ref = makeRef()
       var json = "{\"topic\": \"\(payload.topic)\", \"event\": \"\(payload.event)\", \"ref\": \"\(ref)\", "
-      if NSString(string: payload.message.toJsonString()).containsString("message") {
+      if NSString(string: payload.message.toJsonString()).rangeOfString("message").location != NSNotFound{
         let msg = JSON.parse(String(payload.message.toJsonString()))["message"]
         let jsonMessage = msg.toString(true)
         json += "\"payload\": \(jsonMessage)"

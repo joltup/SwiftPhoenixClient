@@ -14,7 +14,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		AFC87B48F4716EC4B65DA814 /* Pods_SwiftPhoenixClient_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01062076EC6F2D0DD7112B7 /* Pods_SwiftPhoenixClient_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CF1D1EA71B8D0D72002AA0B9 /* PathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D1EA61B8D0D72002AA0B9 /* PathTests.swift */; };
-		CF34C15A1BAFDECD00FC1345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF34C1591BAFDECD00FC1345 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CF34C15A1BAFDECD00FC1345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF34C1591BAFDECD00FC1345 /* Main.storyboard */; };
 		DD139E6694AF67735C6A4F7F /* Pods_SwiftPhoenixClient_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9987BF5E1A8FA9F92340E94 /* Pods_SwiftPhoenixClient_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -486,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftPhoenixClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -499,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftPhoenixClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
